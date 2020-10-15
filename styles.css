@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+/* base styles */
 body {
   background: #eee;
   font-family: 'Roboto';
@@ -35,4 +36,21 @@ input, textarea {
 }
 textarea {
   min-height:200px;
+}
+
+/* post list */
+.post {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.post h2 {
+  margin: 0;
+}
+.post p {
+  margin-top: 0;
+}
+.post a {
+  color: #36cca2;
 }
