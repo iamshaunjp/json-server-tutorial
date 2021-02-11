@@ -9,6 +9,12 @@ body {
   margin: 100px auto;
   padding: 10px;
 }
+.homepage-link {
+  background: transparent;
+  color: #111;
+  text-transform: uppercase;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -54,10 +60,4 @@ textarea {
 }
 .post a {
   color: #36cca2;
-}
-
-.homepage-link {
-  background: transparent;
-  color: #111;
-  text-transform: uppercase;
 }
