@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 /* base styles */
 body {
   background: #eee;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #444;
   max-width: 960px;
   margin: 100px auto;
   padding: 10px;
 }
+.homepage-link {
+  background: transparent;
+  color: #111;
+  text-transform: uppercase;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -26,14 +32,32 @@ nav a {
 form {
   max-width: 500px;
 }
-input, textarea {
+input,
+textarea {
   display: block;
   margin: 16px 0;
   padding: 6px 10px;
   width: 100%;
   border: 1px solid #ddd;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 textarea {
-  min-height:200px;
+  min-height: 200px;
+}
+
+/* post list */
+.post {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.post h2 {
+  margin: 0;
+}
+.post p {
+  margin-top: 0;
+}
+.post a {
+  color: #36cca2;
 }
