@@ -1,1 +1,0 @@
-// javascript for create.html
